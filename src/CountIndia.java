@@ -23,7 +23,7 @@ public class CountIndia {
             System.exit(2);
         }
 
-        // build regex for whole word "India"
+       
         String regex = "\\bIndia\\b";
         Pattern pattern = CASE_INSENSITIVE
                 ? Pattern.compile(regex, Pattern.CASE_INSENSITIVE)
