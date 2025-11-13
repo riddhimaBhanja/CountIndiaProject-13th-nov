@@ -8,8 +8,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class CountIndia {
-
-    // Toggle this to true to count "India" case-insensitively (India, INDIA, india...)
     private static final boolean CASE_INSENSITIVE = true;
 
     public static void main(String[] args) {
@@ -33,7 +31,7 @@ public class CountIndia {
 
         long totalMatches = 0L;
 
-        // Use InputStreamReader with UTF-8 to support most text files
+       
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(file), StandardCharsets.UTF_8))) {
 
